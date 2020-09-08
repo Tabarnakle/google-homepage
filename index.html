@@ -8,17 +8,23 @@
   </head>
   <body>
       <header>
-          <nav id="navbar">
-              <a href="#">Gmail</a>
-              <a href="#">Imágenes</a>
-          </nav>
+          <ul id="navbar">
+              <li><a href="#">Gmail</a></li>
+              <li><a href="#">Imágenes</a></li>
+          </ul>
       </header>
       <main>
-          <img src="media/google_logo.png" alt="Google logo">
+        <div id="logo">
+          <img id="logo-img" src="media/google_logo.png" alt="Google logo">
+        </div> 
+        <div id="searchbar">
           <input type="text" id="search-form" name="search-form">
-          <button type="button" id="google-search">Buscar con Google</button>
-          <button type="button" id="feeling-lucky">Me siento con suerte</button>
-          <p>Ofecido por Google en: <a href="#">English</a></p>
+          <div id="search-buttons">
+            <button type="button" id="google-search">Buscar con Google</button>
+            <button type="button" id="feeling-lucky">Me siento con suerte</button>
+          </div>
+        </div>
+        <p>Ofrecido por Google en: <a href="#">English</a></p>
       </main>
       <footer></footer>
   </body>
